@@ -1,6 +1,6 @@
 import Image from "next/image";
 import MainMenuItemCard from "./Cards/MainMenuItemCard";
-import SmallMenuItemCard from "./Cards/smallMenuItemCard";
+import SmallMenuItemCard from "./Cards/SmallMenuItemCard";
 
 export default function Menu() {
   return (
