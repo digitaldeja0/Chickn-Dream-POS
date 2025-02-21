@@ -2,6 +2,14 @@
 import { useState, useEffect } from "react";
 
 export default function DateTime() {
+  const [isClient, setIsClient] = useState(false);
+  if (!isClient) return null; 
+  useEffect(() => {
+    setIsClient(true); 
+  }, []);
+
+  
+
   const [dateTime, setDateTime] = useState(new Date());
 
   useEffect(() => {
